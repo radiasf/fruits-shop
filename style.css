@@ -14,3 +14,28 @@
 img{
     width:100% ;
 }
+
+.pages-list {
+  display:flex;
+  flex-wrap:wrap;
+  list-style:none;
+  justify-content:center;
+  gap: 50px;
+}
+
+.pages-link{
+  color: chartreus;
+ text-transform: uppercase;
+ text-decoration: none;
+ text-shadow: 1px 2px 3px rgb(194, 194, 194);
+ font-size: 63px ;
+}
+body{
+  height: 1000px ; 
+  background-image: linear-gradient(to right, black, white, blue)
+}
+
+h1  {
+ margin-top: 100px;
+ text-align: center;
+}
